@@ -1,0 +1,189 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="amaninfra.aman_infraventure.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="50dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="18dp"
+        android:paddingBottom="8dp"
+        android:background="#4DB6AC">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_email_white_36dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/email"
+            android:layout_gravity="center_vertical"
+            android:theme="@style/textFormat"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#26A69A"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_phone_white_36dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="10sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/phone"
+            android:gravity="center_vertical"
+            android:theme="@style/textFormat"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#00897B"
+        android:paddingBottom="8dp"
+        android:paddingTop="8dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_place_white_36dp"
+            android:paddingLeft="10sp"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/place"
+            android:gravity="center_vertical"
+            android:theme="@style/textFormat"
+            android:paddingLeft="5sp"
+            android:paddingRight="5sp"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contactus"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Name"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:inputType="textCapWords"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Name"
+        android:textSize="15sp"
+        android:id="@+id/name_field"
+        android:inputType="textCapWords"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Email"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:inputType="textCapWords"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Email"
+        android:textSize="15sp"
+        android:id="@+id/email_field"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Number"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:inputType="textCapWords"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Number"
+        android:textSize="15sp"
+        android:id="@+id/nmbr_field"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Message"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:textSize="20sp"
+        android:inputType="textCapWords"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Message"
+        android:textSize="15sp"
+        android:id="@+id/msg_field"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="*All fields are mandatory."
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:textSize="10sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginRight="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send Mail"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/send_text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
+
+
+</ScrollView>

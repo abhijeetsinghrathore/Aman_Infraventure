@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/about_us"
+        android:title="About Us" />
+    <item android:id="@+id/live_pro"
+        android:title="Live Projects"/>
+    <item android:id="@+id/completed_pro"
+        android:title="Completed Projects"/>
+    <item android:id="@+id/contact_us"
+        android:title="Contact Us"/>
+    <item android:id="@+id/developers"
+        android:title="App Developers"/>
+</menu>
